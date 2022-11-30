@@ -9,16 +9,16 @@ def main():
   st.title("Check if the number is odd or even")
   html_temp = """
   <div style="background-color:tomato;padding:10px">
-  <h2 style="color:white;text-align:center;">Subtraction of 2 numbers using Streamlit</h2>
+  <h2 style="color:white;text-align:center;">Check if the number is odd or even using Streamlit</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
   num = st.number_input("Enter number to check if it's even or odd")
-  if num//2 ==0:
+  if num % 2 ==0:
 	result = "Even Number"
   else:
- 	result = "Odd Number" 
-  st.success('Given number {} is {}'.format(num, result))
+	result = "Odd Number" 
+  st.success('Given number is {}'.format(result))
   if st.button("Made By"):
       st.text("Pulkit")
       st.text("21f1000879")
