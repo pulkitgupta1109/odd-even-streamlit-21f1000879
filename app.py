@@ -9,7 +9,7 @@ def main():
   st.title("TDS Assignment 8 - 21f1000879_Pulkit Submission")
   html_temp = """
   <div style="background-color:black;padding:10px">
-  <h2 style="color:white;text-align:center;">Find whether the given number is odd or even, using Streamlit</h2>
+  <h2 style="color:white;text-align:center;">Find whether the given number is odd or even, using Streamlit Cloud</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
