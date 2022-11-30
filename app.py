@@ -6,7 +6,7 @@ def welcome():
     return "Welcome All"
 
 def main():
-  st.title("Find whether the given number is odd or even.")
+  st.title("TDS Assignment 8 - 21f1000879 Submission")
   html_temp = """
   <div style="background-color:black;padding:10px">
   <h2 style="color:white;text-align:center;">Find whether the given number is odd or even, using Streamlit</h2>
