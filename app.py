@@ -15,9 +15,9 @@ def main():
   st.markdown(html_temp,unsafe_allow_html=True)
   num = st.number_input("Enter number to check if it's even or odd")
   if num % 2 ==0:
-	result = "Even Number"
+       result="Even Number"
   else:
-	result = "Odd Number" 
+       result="Odd Number" 
   st.success('Given number is {}'.format(result))
   if st.button("Made By"):
       st.text("Pulkit")
