@@ -6,14 +6,14 @@ def welcome():
     return "Welcome All"
 
 def main():
-  st.title("Check if the number is odd or even")
+  st.title("Find whether the given number is odd or even.")
   html_temp = """
   <div style="background-color:black;padding:10px">
-  <h2 style="color:white;text-align:center;">Check if the number is Odd or Even using Streamlit</h2>
+  <h2 style="color:white;text-align:center;">Find whether the given number is odd or even, using Streamlit</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
-  num = st.number_input("Enter number to check if it's even or odd")
+  num = st.number_input("Enter number to check if it's even or odd", step=1)
   if num % 2 ==0:
        result="Even Number"
   else:
